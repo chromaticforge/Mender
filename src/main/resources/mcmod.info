@@ -1,0 +1,11 @@
+[
+  {
+    "modid": "${id}",
+    "name": "${name}",
+    "version": "${version}",
+    "mcversion": "${mcVersionStr}",
+    "authorList": [
+      "chromaticforge", "femmeromantic"
+    ]
+  }
+]
