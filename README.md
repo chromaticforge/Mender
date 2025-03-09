@@ -8,23 +8,21 @@ An OptiFine replacement (W.I.P) with the goal of better compat, open source, and
 - Zoom 🟩
 - Capes 🟥
 - Mipmaps 🟥
-- Dynamic Lights 🟥
+- Dynamic lights 🟥
 - Configurable smooth lighting 🟥
-- Smart Advanced OpenGL 🟥
+- Smart advanced opengl 🟥
 - Fog control 🟥
-- Anisotropic Filtering 🟥
+- Anisotropic filtering 🟥
 - Antialiasing 🟥
-- Better Grass 🟥
-- Better Snow 🟥
-- Clear Water 🟥
-- Random Mobs 🟥
-- Connected Textures 🟥
-- Natural Textures 🟥
+- Better grass 🟥
+- Better snow 🟥
+- Clear water 🟥
+- Natural textures 🟥
 - Smooth FPS 🟥
-- Chunk Loading Control 🟥
-- Configurable Details 🟥 
+- Chunk loading control 🟥
+- Configurable details 🟥 
 - Configurable animations 🟥
-- Fullscreen Resolution 🟥
+- Fullscreen resolution 🟥
 - Texture pack tweaks 🟥
   - Custom entity models 🟥
   - Custom item textures 🟥
@@ -37,6 +35,7 @@ An OptiFine replacement (W.I.P) with the goal of better compat, open source, and
   - Custom loading screens 🟥
   - Custom panoramas 🟥
   - Custom sky 🟥
+  - Random mobs 🟥
 - Shaders 🟥
 
 ---
