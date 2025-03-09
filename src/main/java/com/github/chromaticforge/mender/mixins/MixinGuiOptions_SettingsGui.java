@@ -1,9 +1,8 @@
 package com.github.chromaticforge.mender.mixins;
-import com.github.chromaticforge.mender.features.gui.SettingsGui;
+import com.github.chromaticforge.mender.features.gui.OptionsGui;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiOptions;
-import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.settings.GameSettings;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
@@ -29,7 +28,7 @@ public class MixinGuiOptions_SettingsGui {
     )
     private void openGui(GuiButton button, CallbackInfo ci) {
         if (button.id == 9999) {
-            Minecraft.getMinecraft().displayGuiScreen(new SettingsGui((GuiOptions)(Object)this, game_settings_1));
+            Minecraft.getMinecraft().displayGuiScreen(new OptionsGui((GuiOptions)(Object)this, game_settings_1));
         }
     }
 }
